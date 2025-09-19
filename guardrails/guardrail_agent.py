@@ -7,7 +7,7 @@ from config import model
 class RoyalComfortHotelOutput(BaseModel):
     is_hotel_royal_query: bool
     is_hotel_royal_account_tax_query: bool
-    resoning: str
+    reasoning: str
 
 guardrail_agent: Agent = Agent(
     name="RoyalComfortHotelGuardrail",

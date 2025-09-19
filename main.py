@@ -41,7 +41,10 @@ async def main():
     try:
         result = await Runner.run(
             agent,
-            "How many rooms available in Royal Comfort Hotel?"
+            # "How many rooms available in Royal Comfort Hotel?"
+            # "Can you tell me about the Royal Comfort Hotel account tax details?"
+            # "What are the tax charges for Royal Comfort Hotel accounts?"
+            "Tell me about 5 Star Hotel"
         )
         print("Guardrail didn't trip - this is unexpected\n")
         print(result.final_output)
